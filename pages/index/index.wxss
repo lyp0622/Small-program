@@ -5,9 +5,7 @@
   align-items: center;
 }
 
-.userinfo-nickname {
-  color: #aaa;
-}
+
 .picker{
   margin-top: 20px
 }
@@ -41,4 +39,18 @@ text{
     z-index: 1;
     margin: auto;
     margin-bottom: 20px;
+    position: relative;
 }
+
+.batn {
+    width: 100px;
+    /* height: 100%; */
+    box-sizing: border-box;
+    border-radius: 15px 15px 5px 5px;
+    background: #ff7230;
+    z-index: 1;
+    margin: auto;
+    position: absolute;
+    bottom: 0%;
+}
+

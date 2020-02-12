@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/three/three"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,5 +11,21 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "时间差"
+      },
+      {
+          "pagePath": "pages/three/three",
+          "text": "瀑布流"
+      }
+    ]
+  }
 }
